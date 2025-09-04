@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Enigma Price List - Modern</title>
+    <title>Dans4you Online Shop</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="https://unpkg.com/lucide-react@0.263.1/dist/index.umd.js"></script>
     <style>
@@ -78,6 +78,26 @@
             text-align: center;
             margin-bottom: 40px;
             position: relative;
+        }
+        
+        .logo-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        
+        .logo-image {
+            max-width: 180px;
+            height: auto;
+            border-radius: 50%;
+            border: 3px solid #d4af37;
+            box-shadow: 0 0 20px rgba(212, 175, 55, 0.5);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .logo-image:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 30px rgba(212, 175, 55, 0.8);
         }
         
         .title {
@@ -396,6 +416,10 @@
             .btn i {
                 margin-right: 3px;
             }
+            
+            .logo-image {
+                max-width: 140px;
+            }
         }
         
         .footer {
@@ -437,6 +461,11 @@
     
     <div class="container">
         <div class="header">
+            <!-- Logo Image Container -->
+            <div class="logo-container">
+                <img src="https://img1.pixhost.to/images/8189/634369362_ochobot.jpg" alt="Dans4you Logo" class="logo-image">
+            </div>
+            
             <h1 class="title">Dans4you</h1>
             <p class="subtitle">Layanan Digital Terbaik Dan Termurah</p>
         </div>
@@ -1434,4 +1463,4 @@
         });
     </script>
 </body>
-</html>
+    </html>
